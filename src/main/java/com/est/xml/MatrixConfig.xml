@@ -1,0 +1,49 @@
+
+<!-- 
+     @author Estevam
+     Matrix siber config
+-->
+<root>
+
+    
+    <appMyworld myworld="myworld">
+	<path>pageLoading.php?loc=pageHome.php</path>
+	<path1>pageQueue.php</path1>
+        <path2>pagePrvSchedule.php</path2>
+    </appMyworld>
+    
+    <appLiveTv liveTv="live">
+	<path>javascript:switchLiveTv</path>
+	<path>pageEpg.php</path>
+        <path>pageRecord.php</path>
+        <path>pageLoading.php?loc=pageMediaBrowseOpml.php?pid=opml</path>
+    </appLiveTv>    
+    
+    <appLibrary library="library">
+	<path>mhgapp://com.disternet.mymovie.MyMovie</path>
+	<path>mhgapp://com.disternet.mymusic.MyMusic</path>
+        <path>pageMediaBrowseFull.php?pid=localPhoto</path>
+        <path>pageMediaBrowseDlna.php?pid=dlna</path>
+    </appLibrary>
+
+    <apps apps="apps">
+	<path>pageLoading.php?loc=pageSkype.php</path>
+	<path>pageMediaBrowseCam.php</path>
+        <path>mhgapp://com.disternet.news.MyNews</path>
+        <path>pageLoading.php?loc=mws</path>
+	<path>pageLoading.php?loc=pageRecomend.php</path>
+        <path>pageLoading.php?loc=pageChatEnter.php</path>
+        <path>pageLoading.php?loc=pageYouTubeCategoryKey.php</path>
+	<path>pageLoading.php?loc=pageTwitterEnter.php</path>
+        <path>pageLoading.php?loc=pageFacebookEnter.php</path>
+        <path>pageLoading.php?loc=pageAmazonKey.php</path>
+    </apps>
+    
+    <appSettings settings="settings">
+	<path>javascript:switchUser</path>
+	<path>pageSetup.php?pid=country</path>
+        <path>pageLoading.php?loc=pageSystemInfo.php</path>
+    </appSettings>  
+    
+    
+</root>

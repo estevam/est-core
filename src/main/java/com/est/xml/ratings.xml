@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Document   : ratings.xml
+    Version    : 1.1
+    Created on : July 31, 2013
+    Author     : estevam
+    Notes      : A sample XML for defining TV ratings in Spain
+-->
+<document>
+   <rating value="0x00">
+      <minimum_age>0</minimum_age>
+      <display_text>SC</display_text>
+      <display_image>es_sc.png</display_image>
+      <type>tv</type>
+      <country_code>ES</country_code>
+      <description_native>Sin clasificar</description_native>
+      <description_english>Not classified</description_english>
+   </rating>
+   <rating value="0x01">
+      <minimum_age>4</minimum_age>
+      <display_text>+4</display_text>
+      <display_image></display_image>
+      <type>tv</type>
+      <country_code>ES</country_code>
+      <description_native>+4</description_native>
+      <description_english>+4</description_english>
+   </rating>
+</document>
+
+

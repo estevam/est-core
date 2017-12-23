@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+   <rating value="0x00">
+      <minimum_age>0</minimum_age>
+      <display_text>SC</display_text>
+      <display_image>es_sc.png</display_image>
+      <type>tv</type>
+      <country_code>ES</country_code>
+      <description_native>Sin clasificar</description_native>
+      <description_english>Not classified</description_english>
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+   <rating value="0x01">
+      <minimum_age>4</minimum_age>
+      <display_text>+4</display_text>
+      <display_image />
+      <type>tv</type>
+      <country_code>ES</country_code>
+      <description_native>+4</description_native>
+      <description_english>+4</description_english>
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+   <rating value="0x02">
+      <minimum_age>5</minimum_age>
+      <display_text>+5</display_text>
+      <display_image />
+      <type>tv</type>
+      <country_code>ES</country_code>
+      <description_native>+5</description_native>
+      <description_english>+5</description_english>
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+   <rating value="0x03">
+      <minimum_age>6</minimum_age>
+      <display_text>+6</display_text>
+      <display_image />
+      <type>tv</type>
+      <country_code>ES</country_code>
+      <description_native>+6</description_native>
+      <description_english>+6</description_english>
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+   <rating value="0x04">
+      <minimum_age>7</minimum_age>
+      <display_text>+7</display_text>
+      <display_image>es_7.png</display_image>
+      <type>tv</type>
+      <country_code>ES</country_code>
+      <description_native>+7</description_native>
+      <description_english>+7</description_english>
+      <can_lock>true</can_lock>
+      <block_list>
+         <item>0x0A</item>
+         <item>0x0F</item>
+         <item>0x1F</item>
+      </block_list>
+   </rating>
+   <rating value="0x05">
+      <minimum_age>8</minimum_age>
+      <display_text>+8</display_text>
+      <display_image />
+      <type>tv</type>
+      <country_code>ES</country_code>
+      <description_native>+8</description_native>
+      <description_english>+8</description_english>
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+   <rating value="0x06">
+      <minimum_age>9</minimum_age>
+      <display_text>+9</display_text>
+      <display_image />
+      <type>tv</type>
+      <country_code>ES</country_code>
+      <description_native>+9</description_native>
+      <description_english>+9</description_english>
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+   <rating value="0x07">
+      <minimum_age>10</minimum_age>
+      <display_text>+10</display_text>
+      <display_image />
+      <type>tv</type>
+      <country_code>ES</country_code>
+      <description_native>+10</description_native>
+      <description_english>+10</description_english>
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+   <rating value="0x08">
+      <minimum_age>11</minimum_age>
+      <display_text>+11</display_text>
+      <display_image />
+      <type>tv</type>
+      <country_code>ES</country_code>
+      <description_native>+11</description_native>
+      <description_english>+11</description_english>
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+   <rating value="0x09">
+      <minimum_age>12</minimum_age>
+      <display_text>+12</display_text>
+      <display_image>es_12.png</display_image>
+      <type>tv</type>
+      <country_code>ES</country_code>
+      <description_native>+12</description_native>
+      <description_english>+12</description_english>
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+   <rating value="0x0A">
+      <minimum_age>13</minimum_age>
+      <display_text>+13</display_text>
+      <display_image>es_13.png</display_image>
+      <type>tv</type>
+      <country_code>ES</country_code>
+      <description_native>+13</description_native>
+      <description_english>+13</description_english>
+      <can_lock>true</can_lock>
+      <block_list>
+         <item>0x0F</item>
+         <item>0x1F</item>
+      </block_list>
+   </rating>
+   <rating value="0x0B">
+      <minimum_age>14</minimum_age>
+      <display_text>+14</display_text>
+      <display_image />
+      <type>tv</type>
+      <country_code>ES</country_code>
+      <description_native>+14</description_native>
+      <description_english>+14</description_english>
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+   <rating value="0x0C">
+      <minimum_age>15</minimum_age>
+      <display_text>+15</display_text>
+      <display_image />
+      <type>tv</type>
+      <country_code>ES</country_code>
+      <description_native>+15</description_native>
+      <description_english>+15</description_english>
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+   <rating value="0x0D">
+      <minimum_age>16</minimum_age>
+      <display_text>+16</display_text>
+      <display_image>es_16.png</display_image>
+      <type>tv</type>
+      <country_code>ES</country_code>
+      <description_native>+16</description_native>
+      <description_english>+16</description_english>
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+   <rating value="0x0E">
+      <minimum_age>17</minimum_age>
+      <display_text>+17</display_text>
+      <display_image />
+      <type>tv</type>
+      <country_code>ES</country_code>
+      <description_native>+17</description_native>
+      <description_english>+17</description_english>
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+   <rating value="0x0F">
+      <minimum_age>18</minimum_age>
+      <display_text>+18</display_text>
+      <display_image>es_18.png</display_image>
+      <type>tv</type>
+      <country_code>ES</country_code>
+      <description_native>+18</description_native>
+      <description_english>+18</description_english>
+      <can_lock>true</can_lock>
+      <block_list>
+         <item>0x1F</item>
+      </block_list>
+   </rating>
+   <rating value="0x1D">
+      <minimum_age>0</minimum_age>
+      <display_text>TP</display_text>
+      <display_image>es_tp.png</display_image>
+      <type>tv</type>
+      <country_code>ES</country_code>
+      <description_native>Para todos los publicos</description_native>
+      <description_english>Recommended for all ages</description_english>
+      <can_lock>true</can_lock>
+      <block_list>
+         <item>0x04</item>
+         <item>0x0A</item>
+         <item>0x0F</item>
+         <item>0x1F</item>
+      </block_list>
+   </rating>
+   <rating value="0x1E">
+      <minimum_age>0</minimum_age>
+      <display_text>EI</display_text>
+      <display_image>es_ei.png</display_image>
+      <type>tv</type>
+      <country_code>ES</country_code>
+      <description_native>Especialmente recomendada para la infancia</description_native>
+      <description_english>Specially recommended for children</description_english>
+      <can_lock>true</can_lock>
+      <block_list>
+         <item>0x04</item>
+         <item>0x0A</item>
+         <item>0x0F</item>
+         <item>0x1F</item>
+         <item>0x1D</item>
+      </block_list>
+   </rating>
+   <rating value="0x1F">
+      <minimum_age>18</minimum_age>
+      <display_text>X</display_text>
+      <display_image>es_x.png</display_image>
+      <type>tv</type>
+      <country_code>ES</country_code>
+      <description_native>Programa X</description_native>
+      <description_english>X rating program</description_english>
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+   <rating value="0x010001">
+      <minimum_age>0</minimum_age>
+      <display_text>NONE</display_text>
+      <display_image />
+      <type>tv</type>
+      <country_code>US</country_code>
+      <description_native />
+      <description_english />
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+   <rating value="0x010002">
+      <minimum_age>0</minimum_age>
+      <display_text>G</display_text>
+      <display_image />
+      <type>tv</type>
+      <country_code>US</country_code>
+      <description_native />
+      <description_english />
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+   <rating value="0x010003">
+      <minimum_age>7</minimum_age>
+      <display_text>PG</display_text>
+      <display_image />
+      <type>tv</type>
+      <country_code>US</country_code>
+      <description_native />
+      <description_english />
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+   <rating value="0x010004">
+      <minimum_age>14</minimum_age>
+      <display_text>14</display_text>
+      <display_image />
+      <type>tv</type>
+      <country_code>US</country_code>
+      <description_native />
+      <description_english />
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+   <rating value="0x010005">
+      <minimum_age>18</minimum_age>
+      <display_text>MA</display_text>
+      <display_image />
+      <type>tv</type>
+      <country_code>US</country_code>
+      <description_native />
+      <description_english />
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+   <rating value="0x010101">
+      <minimum_age>0</minimum_age>
+      <display_text>TV101</display_text>
+      <display_image />
+      <type>tv</type>
+      <country_code>US</country_code>
+      <description_native />
+      <description_english />
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+   <rating value="0x010201">
+      <minimum_age>0</minimum_age>
+      <display_text>TV201</display_text>
+      <display_image />
+      <type>tv</type>
+      <country_code>US</country_code>
+      <description_native />
+      <description_english />
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+   <rating value="0x010401">
+      <minimum_age>0</minimum_age>
+      <display_text>TV401</display_text>
+      <display_image />
+      <type>tv</type>
+      <country_code>US</country_code>
+      <description_native />
+      <description_english />
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+   <rating value="0x010501">
+      <minimum_age>0</minimum_age>
+      <display_text>Y</display_text>
+      <display_image />
+      <type>tv</type>
+      <country_code>US</country_code>
+      <description_native />
+      <description_english />
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+   <rating value="0x010502">
+      <minimum_age>7</minimum_age>
+      <display_text>Y7</display_text>
+      <display_image />
+      <type>tv</type>
+      <country_code>US</country_code>
+      <description_native />
+      <description_english />
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+   <rating value="0x010701">
+      <minimum_age>0</minimum_age>
+      <display_text>NA</display_text>
+      <display_image />
+      <type>mpaa</type>
+      <country_code>US</country_code>
+      <description_native />
+      <description_english />
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+   <rating value="0x010702">
+      <minimum_age>0</minimum_age>
+      <display_text>G</display_text>
+      <display_image />
+      <type>mpaa</type>
+      <country_code>US</country_code>
+      <description_native />
+      <description_english />
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+   <rating value="0x010703">
+      <minimum_age>7</minimum_age>
+      <display_text>PG</display_text>
+      <display_image />
+      <type>mpaa</type>
+      <country_code>US</country_code>
+      <description_native />
+      <description_english />
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+   <rating value="0x010704">
+      <minimum_age>13</minimum_age>
+      <display_text>PG13</display_text>
+      <display_image />
+      <type>mpaa</type>
+      <country_code>US</country_code>
+      <description_native />
+      <description_english />
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+   <rating value="0x010705">
+      <minimum_age>14</minimum_age>
+      <display_text>R</display_text>
+      <display_image />
+      <type>mpaa</type>
+      <country_code>US</country_code>
+      <description_native />
+      <description_english />
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+   <rating value="0x010706">
+      <minimum_age>17</minimum_age>
+      <display_text>NC17</display_text>
+      <display_image />
+      <type>mpaa</type>
+      <country_code>US</country_code>
+      <description_native />
+      <description_english />
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+   <rating value="0x010707">
+      <minimum_age>18</minimum_age>
+      <display_text>X</display_text>
+      <display_image />
+      <type>mpaa</type>
+      <country_code>US</country_code>
+      <description_native />
+      <description_english />
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+   <rating value="0x010708">
+      <minimum_age>0</minimum_age>
+      <display_text>NR</display_text>
+      <display_image />
+      <type>mpaa</type>
+      <country_code>US</country_code>
+      <description_native />
+      <description_english />
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+   <rating value="0x020001">
+      <minimum_age>0</minimum_age>
+      <display_text>CA001</display_text>
+      <display_image />
+      <type>ca</type>
+      <country_code>CA</country_code>
+      <description_native />
+      <description_english />
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+   <rating value="0x020002">
+      <minimum_age>0</minimum_age>
+      <display_text>CA002</display_text>
+      <display_image />
+      <type>ca</type>
+      <country_code>CA</country_code>
+      <description_native />
+      <description_english />
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+   <rating value="0x020003">
+      <minimum_age>0</minimum_age>
+      <display_text>CA003</display_text>
+      <display_image />
+      <type>ca</type>
+      <country_code>CA</country_code>
+      <description_native />
+      <description_english />
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+   <rating value="0x020004">
+      <minimum_age>0</minimum_age>
+      <display_text>CA004</display_text>
+      <display_image />
+      <type>ca</type>
+      <country_code>CA</country_code>
+      <description_native />
+      <description_english />
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+   <rating value="0x020005">
+      <minimum_age>0</minimum_age>
+      <display_text>CA005</display_text>
+      <display_image />
+      <type>ca</type>
+      <country_code>CA</country_code>
+      <description_native />
+      <description_english />
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+   <rating value="0x020101">
+      <minimum_age>0</minimum_age>
+      <display_text>CA101</display_text>
+      <display_image />
+      <type>ca</type>
+      <country_code>CA</country_code>
+      <description_native />
+      <description_english />
+      <can_lock>false</can_lock>
+      <block_list>
+         <item />
+      </block_list>
+   </rating>
+</document>
