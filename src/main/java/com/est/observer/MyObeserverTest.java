@@ -11,6 +11,7 @@ import java.util.Observer;
  *
  * @author estevam
  */
+@SuppressWarnings("deprecation")
 public class MyObeserverTest {
 
     public static void main(String[] args) {

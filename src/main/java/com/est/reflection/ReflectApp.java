@@ -16,7 +16,7 @@ import java.lang.reflect.Method;
  */
 public class ReflectApp {
 
-    @SuppressWarnings({ "rawtypes", "unchecked" })
+    @SuppressWarnings({ "rawtypes", "unchecked", "deprecation" })
 	public static void main(String[] args) {
 
         //no paramater

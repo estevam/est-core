@@ -77,11 +77,11 @@ public class UtilitarioCollections {
 
         ArrayList<Integer> arrayList = new ArrayList<Integer>();
 
-        arrayList.add(new Integer("3"));
-        arrayList.add(new Integer("1"));
-        arrayList.add(new Integer("8"));
-        arrayList.add(new Integer("3"));
-        arrayList.add(new Integer("5"));
+        arrayList.add(3);
+        arrayList.add(1);
+        arrayList.add(8);
+        arrayList.add(3);
+        arrayList.add(5);
  
         Object obj = Collections.max(arrayList); // retorna o maximo inteiro
         System.out.println(obj);

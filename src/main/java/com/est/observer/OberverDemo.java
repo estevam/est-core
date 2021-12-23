@@ -13,6 +13,7 @@ import java.util.logging.Logger;
  *
  * @author estevam
  */
+@SuppressWarnings("deprecation")
 public class OberverDemo {
 
     private static OberverDemo.myStatus iState = OberverDemo.myStatus.myStatus_Init;
@@ -60,7 +61,8 @@ public class OberverDemo {
 
     static class BeingWatch extends Observable {
 
-        void counter(int period) {
+        @SuppressWarnings("removal")
+		void counter(int period) {
             for (; period >= 0; period--) {
                 setChanged();
                 notifyObservers(new Integer(period));

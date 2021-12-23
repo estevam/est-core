@@ -9,8 +9,9 @@ import java.util.Observable;
 
 /**
  * This class downloads a file from a URL.
- * @author Jeremy Hsu
+
  */
+@SuppressWarnings("deprecation")
 public class HttpDownload extends Observable implements Runnable {
 
     // Max size of download buffer.

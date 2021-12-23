@@ -16,6 +16,7 @@ import java.util.Observable;
  *
  * @author estevam
  */
+@SuppressWarnings("deprecation")
 public class Download extends Observable implements Runnable {
 
     private static final int MAX_BUFFER_SIZE = 1024;
