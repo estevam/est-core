@@ -7,43 +7,54 @@ package com.est.threads;
  */
 public class SimpleThreadRunnable implements Runnable {
 
-    String palavra;
-    long tempo;
+	String palavra;
+	long tempo;
 
-    public SimpleThreadRunnable(String palavra, long tempo) {
-        this.palavra = palavra;
-        this.tempo = tempo;
-    }
-    
-    
-    public static void main(String args[]){
-    
-        SimpleThread ping = new SimpleThread("Ping", 2000);
-        SimpleThread pong = new SimpleThread("Pong", 1500);
-        System.out.println("Start Thread!");
-        
-        new Thread(ping,"ping").start();
-        new Thread(pong,"pong").start();
-       
-    }
-    
-    
-    @Override
-    public void run() {
+	boolean isStatus =false;
+	public SimpleThreadRunnable(String palavra, long tempo) {
+		this.palavra = palavra;
+		this.tempo = tempo;
+		isStatus =false;
+	}
 
-        try {
-            for (int i = 0; i < 1000; i++) {
-                System.out.println(palavra);
-                Thread.sleep(tempo);
-                
-            }
-        } catch (InterruptedException e) {
-            System.out.println("Fim Thread!");
-            return;  // metodo chegou ao fim para de executar
-        }
-    }
 
-    
-    
-    
+	public void setStatus(boolean s) {
+		isStatus =s;
+	}
+	
+	public boolean getStatus() {
+		return isStatus;
+	}
+	
+	@Override
+	public void run() {
+
+		try {
+			for (int i = 0; i < 10; i++) {
+				System.out.println(palavra);
+				Thread.sleep(tempo);
+			
+			}
+		} catch (InterruptedException e) {
+	
+		}
+		
+		isStatus =true;
+	}
+	public static void main(String args[]) {
+
+		SimpleThreadRunnable ping = new SimpleThreadRunnable("Ping", 1000);
+		SimpleThreadRunnable pong = new SimpleThreadRunnable("Pong", 2000);
+		System.out.println("Start Thread!");
+
+		Thread t1 = new Thread(ping, "ping");
+		t1.start();
+		Thread t2 = new Thread(pong, "pong");
+		t2.start();
+
+		while(ping.getStatus()) {
+			System.out.println(ping.getStatus());
+		}
+	}
 }
+

@@ -42,16 +42,16 @@ public class RemoveDuplicates {
      * @param iRecordList
      */
     @SuppressWarnings("unused")
-	private void removeDuplicates(ArrayList<record> iRecordList) {
-        ArrayList<record> iListSingleElements = new ArrayList<record>();
-        ArrayList<record> iListPairsElements = new ArrayList<record>();
+	private void removeDuplicates(ArrayList<Record> iRecordList) {
+        ArrayList<Record> iListSingleElements = new ArrayList<Record>();
+        ArrayList<Record> iListPairsElements = new ArrayList<Record>();
         int size = iRecordList.size();
 
         Set<String> encountered = new HashSet<String>();   // Hashset nao permite elementos repetidos
 
         for (int in = 0; in < size; in++) {
             final String t = iRecordList.get(in).getTitle();
-            final record obj = iRecordList.get(in);
+            final Record obj = iRecordList.get(in);
             final boolean first = encountered.add(t); // tenta adicionar 
             if (first) {
                 iListSingleElements.add(obj); // se add n eh reptido
@@ -62,7 +62,7 @@ public class RemoveDuplicates {
 
     }
 
-    class record {
+    class Record {
 
         private String title;
 
